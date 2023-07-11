@@ -3,6 +3,13 @@ import sys
 
 
 def import_car_brand(brand):
+    '''
+    Function to import cars from the RDW API
+
+    Parameters:
+    - brand (str): Brand of the cars to import
+    '''
+
     print(f"Downloading cars for brand {brand}")
 
     # Convert the value of the brand to an uppercase
